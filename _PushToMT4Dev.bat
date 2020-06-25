@@ -5,9 +5,9 @@ rem Use in case some content needs to be replaced (reverted from Version Control
 setlocal enabledelayedexpansion
 
 :: Source Directory where Version Control Repository is located
-set SOURCE_DIR="C:\Users\fxtrams\Documents\000_TradingRepo\FALCON_B"
+set SOURCE_DIR="/Users/miguelferraz/Documents/GitHub/The-Falcon"
 :: Destination Directory where Expert Advisor is located
-set DEST_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\04_FALCON_B"
+set DEST_DIR="/Users/miguelferraz/Library/Application Support/com.bdswiss.mt4mac_15085059406599/drive_c/Program Files/BDSwiss MetaTrader 4/MQL4/Experts/EAs GitHub"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
 
